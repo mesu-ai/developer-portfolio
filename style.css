@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+#span1{
+    color:orange;
+}
+#button1{
+    background-color: orangered;
+    color: white;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+.sec{
+    height: 400px;
+    width: 100%;
+    
+
+}
+.sec1{
+    height: 400px;
+    width: 45%;
+
+}
+#p1{
+    text-align: justify;
+}
+
+.sec2{
+    height: 400px;
+    width: 45%;
+    
+}
