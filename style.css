@@ -19,6 +19,7 @@ h2{
     padding: 10px 40px;
     font-size: 15px;
     font-weight: 700;
+    border-radius: 10px;
     background-image: linear-gradient(rgb(255, 68, 21),rgba(61, 6, 2, 0.986));
 
 
@@ -88,11 +89,8 @@ h2{
     margin-right: 6%;
     padding: 20px;
 
-    border-left: 5px solid rgb(255, 115, 0);
-    
-
-
-    
+    border-left: 6px solid;
+    border-image: linear-gradient(rgb(226, 223, 9),rgb(228, 12, 236))1;
 
 }
 .card2{
@@ -103,12 +101,19 @@ h2{
     margin-right: 12%;
     padding: 20px;
     
-    border-left: 5px solid red ;
+    border-left: 6px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 5;
 
 }
 
+.box-shadow{
+    border-radius: 5px;
+    box-shadow: 5px 2px 15px 8px gray;
+}
+
 #f1{
-    
+
     text-align: center;
 }
 
